@@ -18,4 +18,6 @@
     - Run the tests before packaging?
 * ``--[no-]cpan-verbose``
     - Produce verbose output from cpanm?
+* ``--cpan-package-reject-from-depends MODULE``
+    - Remove module from those generated with auto-depend.
 

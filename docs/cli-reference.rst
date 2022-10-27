@@ -102,6 +102,9 @@ General Options
 * ``--cpan-perl-bin PERL_EXECUTABLE``
     - (cpan only) The path to the perl executable you wish to run.
 
+* ``--cpan-package-reject-from-depends MODULE``
+    - (cpan only) Filter modules from the generated depends.
+
 * ``--cpan-perl-lib-path PERL_LIB_PATH``
     - (cpan only) Path of target Perl Libraries
 
@@ -673,6 +676,8 @@ cpan
     - Run the tests before packaging?
 * ``--[no-]cpan-verbose``
     - Produce verbose output from cpanm?
+* ``--cpan-package-reject-from-depends MODULE``
+    - (cpan only) Filter modules from the generated depends.
 
 deb
 ---
